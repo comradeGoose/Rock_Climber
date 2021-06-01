@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rock_Climber", "Rock_Climber\Rock_Climber.csproj", "{1549270D-6D12-4B49-8A97-7663EE52DE73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1549270D-6D12-4B49-8A97-7663EE52DE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1549270D-6D12-4B49-8A97-7663EE52DE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1549270D-6D12-4B49-8A97-7663EE52DE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1549270D-6D12-4B49-8A97-7663EE52DE73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD80588E-A76E-4334-B8AF-1DA0BA4677E9}
+	EndGlobalSection
+EndGlobal
