@@ -11,16 +11,6 @@ namespace rock_climber
 
         public Way()
         {
-            Console.WriteLine("Введите высоту перепада трех ближайших препятствий:");
-            try
-            {
-                height_three = Convert.ToInt32(Console.ReadLine());
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Ошибка");
-                height_three = Convert.ToInt32(Console.ReadLine());
-            }
             Console.WriteLine("Введите максимальную высоту возвышенности которую скалолаз сможет преодолеть:");
             try
             {
@@ -30,6 +20,16 @@ namespace rock_climber
             {
                 Console.WriteLine("Ошибка");
                 height = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("Введите высоту перепада трех ближайших препятствий:");
+            try
+            {
+                height_three = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка");
+                height_three = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("Введите продолжительность маршрута:");
             try
